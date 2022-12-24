@@ -3,15 +3,71 @@
     padding: 0;
 }
 
+h6 {
+    margin: 0;
+}
+
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
-#header {
-    background-color: burlywood;
+header {
+    color: white;
+}
+
+#heroImage_index {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-sofía-morales-14567680.jpg);
+}
+
+#heroImage_about {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-mike-murray-5701951.jpg);
+}
+
+#heroImage_demo {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-pixabay-159108.jpg);
+}
+
+#heroImage_blog {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-tara-winstead-7123050.jpg);
+}
+
+#heroImage_contact {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-henry-&-co-2376963.jpg);
+}
+
+#heroImage_blogPost {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/pexels-yura-forrat-12158398.jpg);
+}
+
+#sectionImage_index {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(112, 111, 111, 0.5)), url(../assets/images/paper-style-white-monochrome-background_52683-66443.jpg);
 }
 
 #main {
     height: 75vh;
+}
+
+#navbarNav {
+    justify-content: right;
+}
+
+.img-thumbnail {
+    height:150px;
+    width:150px;
 }
