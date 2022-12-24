@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="container-fluid" id="heroImage_contact">
-        <nav class="navbar navbar-expand-lg py-3 navbar-dark">
+        <nav class="navbar navbar-expand-sm py-3 navbar-dark">
             <div class="container">
                 <a class="navbar-brand font-weight-bold text-uppercase" href="#">
                     <img src="/assets/images/blu1.jpg" width="100px" alt="">
@@ -43,7 +43,7 @@
     <main>
         <!-- Section separator 1 -->
         <div class="container-fluid">
-            <div class="row py-5 text-bg-dark">
+            <div class="row py-5 footerHeader">
                 <div class="col text-center">
                     <h4 class="display-6">Section title</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, perspiciatis. Ipsum quisquam illo aperiam fugiat.</p>
@@ -53,50 +53,52 @@
         <!-- Form Section with image -->
         <div class="container-fluid" id="sectionImage_index">
             <div class="row">
-                <div class="col-md-6 d-flex justify-content-center">
+                <div class="col-sm-12 col-md-6 text-center align-self-center px-5 pt-3">
                     <!-- TO DO add a media query to remove the image for sm res -->
-                    <img src="/assets/images/pngegg (4).png" class="align-self-center mx-2 my-5 img-fluid" min-width="300px" alt="">
+                    <img src="/assets/images/pngegg (4).png" class="align-self-center mx-2 img-fluid" alt="">
                 </div>
-                <form class="col-md-6 py-5 px-4">
-                    <h4>Contact me!</h4>
-                    <div class="mb-3">
-                        <label for="inputName" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="inputName" aria-describedby="Name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputLastName" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="inputLastName" aria-describedby="Last name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Tell me about your idea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                        <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="check1">
-                        <label class="form-check-label" for="check1">I agree with the Terms of service</label>
+                <div class="col-sm-12 col-md-6 align-self-center py-5 px-5">
+                    <form>
+                        <h4>Contact me!</h4>
+                        <div class="mb-3">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName" aria-describedby="Name">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                        <div class="mb-3">
+                            <label for="inputLastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="inputLastName" aria-describedby="Last name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Tell me about your idea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                            <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="check1">
+                            <label class="form-check-label" for="check1">I agree with the Terms of service</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col text-center py-3 text-bg-dark p-3">
+                <div class="col text-center py-3 footerHeader">
                     <h6>Footer</h6>
                 </div>
             </div>
             <div class="row pt-5 pb-3 px-5 text-bg-light p-3">
-                <div class="col-4">
+                <div class="col col-xs-12">
                     <h6>About us</h6>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quas ex sapiente nostrum fugit quae expedita vitae doloremque nemo nisi!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quas ex sapiente nostrum !</p>
                 </div>
-                <div class="col-4">
+                <div class="col col-xs-12">
                     <h6 class=" text-center">Sections</h6>
                     <ul class="list-inline font-weight-bold text-center">
                         <li class="list-item"><a class="nav-link" href="/index.html">Home</a></li>
@@ -106,7 +108,7 @@
                         <li class="list-item"><a class="nav-link" href="/pages/contact.html">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col col-xs-12">
                     <h6 class=" text-center">Follow us!</h6>
                     <ul class="list-inline text-center">
                         <li class="list-item"><a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i> JoseOrdorica</a></li>
