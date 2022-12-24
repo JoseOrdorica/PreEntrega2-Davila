@@ -71,3 +71,46 @@ header {
     height:150px;
     width:150px;
 }
+
+.simpleSection_style {
+    color: white;
+    background-color: darkslateblue;
+}
+
+.footerHeader {
+    color: white;
+    background-color: darkslateblue;
+}
+
+.btn {
+    color: white;
+    background-color: darkslateblue;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(109, 93, 209);
+}
+
+.form-check :checked {
+    background-color: darkslateblue;
+    border: none;
+}
+
+i {
+    color: darkslateblue;
+}
+
+a :hover{
+    background-color: rgba(71, 61, 139, 0.295);
+}
+
+@media (max-width: 575.98px) {  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) {  }
